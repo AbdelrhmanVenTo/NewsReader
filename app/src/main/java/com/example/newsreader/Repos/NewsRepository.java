@@ -18,7 +18,7 @@ import retrofit2.Response;
 public class NewsRepository {
 
     String Lang;
-    final String APIKEY="17c3229d4c5242758b2a4a079a38c177";
+    final String APIKEY="put Your APIKEY here";
 
     public NewsRepository(String lang) {
         Lang = lang;
