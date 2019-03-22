@@ -3,5 +3,5 @@ News app using an API that gives a user regularly-updated news from the internet
 used in app : <br />
 1 - Recyclerview <br />
 2 - Material dialog <br />
-3 - API <br />
+3 - API : https://newsapi.org/ <br />
 4 = Room DataBase <br />
