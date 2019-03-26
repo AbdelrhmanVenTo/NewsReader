@@ -27,6 +27,7 @@ public class News extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         super.setContentView(R.layout.activity_news);
+        getSupportActionBar().setTitle(source.getName());
         initView();
         layoutManager = new LinearLayoutManager(activity);
         adapter = new NewsAdapter(null);
