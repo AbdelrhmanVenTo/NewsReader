@@ -12,8 +12,14 @@
         android:roundIcon="@drawable/new_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ArticleDetails"></activity>
-        <activity android:name=".News" />
+        <activity android:name=".ArticleDetails"
+            android:configChanges="orientation"
+            android:parentActivityName=".SourceActivity"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name=".News"
+            android:configChanges="orientation"
+            android:parentActivityName=".SourceActivity"
+            android:screenOrientation="fullSensor"/>
         <activity
             android:name=".Splash"
             android:theme="@style/splash">
